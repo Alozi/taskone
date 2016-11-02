@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:background="@color/colorLavender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alozik.waves.MainActivity">
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/puppy"/>-->
+
+    <fragment
+        android:id="@+id/fNewDeliveryAddress"
+        class="com.example.alozik.waves.NewDeliveryAddressFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_new_delivery_address" />
+
+</FrameLayout>

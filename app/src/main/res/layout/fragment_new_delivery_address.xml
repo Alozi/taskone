@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alozik.waves.NewDeliveryAddressFragment">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFilterItems"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnFilterItems"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <Button
+                android:id="@+id/btnNavigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnNavigation"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        </LinearLayout>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etTitle"
+            android:inputType="text" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etCountry"
+            android:inputType="text" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etCity"
+            android:inputType="text" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etAddress"
+            android:inputType="text" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etZip"
+            android:inputType="phone" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etPhone"
+            android:inputType="phone" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etCompanyNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etCompanyNumber"
+            android:inputType="text" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etRegion"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:id="@+id/llCustomViewsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnDeleteAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnDeleteAddress"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    </LinearLayout>
+
+</ScrollView>

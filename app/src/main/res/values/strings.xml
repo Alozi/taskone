@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Waves</string>
+
+    <string name="btnFilterItems"> Filter items...</string>
+    <string name="btnNavigation"> Nav </string>
+    <string name="etTitle">Title</string>
+    <string name="etCountry">Country</string>
+    <string name="etCity">City</string>
+    <string name="etAddress">Address</string>
+    <string name="etZip">Zip</string>
+    <string name="etPhone">Phone</string>
+    <string name="etCompanyNumber">Company Number</string>
+    <string name="etRegion">Region</string>
+    <string name="btnDeleteAddress">Delete Address</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
